@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAV */
+
+#navDiv {
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#nav-navigation-div {
+  display: flex;
+  gap: 30px;
+}
+
+#nav-navigation-div a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#nav-navigation-div a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

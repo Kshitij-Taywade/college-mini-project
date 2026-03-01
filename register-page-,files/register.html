@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- BASIC SEO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EngiPa | Engineering Student Registration Portal</title>
+
+    <meta name="description" content="EngiPa is an engineering student portal for registration, login, and access to previous year question papers and academic resources." />
+
+    <meta name="keywords" content="EngiPa, engineering student registration, student portal, previous year papers, engineering login" />
+
+    <meta name="author" content="EngiPa Team" />
+
+    <!-- SOCIAL PREVIEW (BONUS SEO) -->
+    <meta property="og:title" content="EngiPa Student Registration" />
+    <meta property="og:description" content="Register on EngiPa to access engineering academic resources and previous year question papers." />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="register.css" />
+</head>
+
+<body>
+    <header>
+        <nav id="navDiv">
+            <div class="logo">EngiPa</div>
+            <div id="nav-navigation-div">
+                <div class="theme">Theme</div>
+                <a href="/home-page-fiiles/index.html">Home</a>
+                <a href="/about-us-page-files/About.html" class="aboutPage"> About Us </a>
+
+                <a href="/contact-us-page-files/contact.html" class="contactPage">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <main id="main-div">
+        <section class="registration-section">
+            <!-- SEO IMPORTANT -->
+            <h1>Student Registration</h1>
+
+            <form class="register-form" arial-label="Student Registration Form">
+                <!-- ROW 1 -->
+
+                <div class="form-group">
+                    <label for="profile">Profile Photo</label>
+                    <input id="profile" type="file" />
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input id="name" type="text" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="enroll">Enrollment Number</label>
+                        <input id="enroll" type="text" required />
+                    </div>
+                </div>
+
+                <!-- ROW 2 -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input id="email" type="email" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number</label>
+                        <input id="mobile" type="tel" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dept">Department</label>
+                        <select id="dept" required>
+                <option value="">Select</option>
+                <option>EXTC</option>
+              </select>
+                    </div>
+                </div>
+
+                <!-- ROW 3 -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="password">Create Password</label>
+                        <input id="password" type="password" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm">Confirm Password</label>
+                        <input id="confirm" type="password" required />
+                    </div>
+                </div>
+
+                <!-- BUTTONS -->
+                <div class="form-row buttons">
+                    <button type="submit">Register</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 EngiPa</p>
+    </footer>
+</body>
+
+</html>
