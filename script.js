@@ -25,7 +25,7 @@ theme.addEventListener("click", () => {
 
 
 // Backend API URL (change later if needed)
-const API_URL = "http://localhost:8080/api/login";
+const API_URL = "https://questionpaperapplication.onrender.com/api/auth/login";
 
 // Form submit handler
 form.addEventListener("submit", function(e) {
