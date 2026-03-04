@@ -8,12 +8,7 @@ selectSem.addEventListener("change", () => {
     console.log(selectedSem);
 })
 
-
-
-// EngiPa - Find Paper Script
-
-
-// 🔥 CHANGE THIS TO YOUR REAL RENDER BACKEND URL
+// CHANGE THIS TO YOUR REAL RENDER BACKEND URL
 const API_BASE_URL = "https://questionpaperapplication.onrender.com/api/question-papers";
 
 document.addEventListener("DOMContentLoaded", () => {

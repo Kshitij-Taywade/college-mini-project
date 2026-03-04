@@ -1,69 +1,78 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- BASIC SEO -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Find Previous Year Papers | EngiPa</title>
 
-    <meta name="description" content="Find previous year question papers for engineering students by branch, year, semester, subject and exam type on EngiPa." />
+    <meta
+      name="description"
+      content="Find previous year question papers for engineering students by branch, year, semester, subject and exam type on EngiPa."
+    />
 
-    <meta name="keywords" content="previous year papers, engineering question papers, mid sem, end sem, improvement exam, supplementary exam" />
+    <meta
+      name="keywords"
+      content="previous year papers, engineering question papers, mid sem, end sem, improvement exam, supplementary exam"
+    />
 
     <meta name="author" content="EngiPa Team" />
 
     <link rel="stylesheet" href="find.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav id="navDiv">
-            <div class="logo">EngiPa</div>
-            <div id="nav-navigation-div">
-                <div class="theme">Theme</div>
-                <a href="">Home</a>
-                <a href="/about-us-page-files/About.html" class="aboutPage"> About Us </a>
+      <nav id="navDiv">
+        <div class="logo">EngiPa</div>
+        <div id="nav-navigation-div">
+          <div class="theme">Theme</div>
+          <a href="">Home</a>
+          <a href="/about-us-page-files/About.html" class="aboutPage">
+            About Us
+          </a>
 
-                <a href="/contact-us-page-files/contact.html" class="contactPage">Contact Us</a>
-            </div>
-        </nav>
+          <a href="/contact-us-page-files/contact.html" class="contactPage"
+            >Contact Us</a
+          >
+        </div>
+      </nav>
     </header>
 
     <main id="main-div">
-        <section class="find-paper-section">
-            <!-- SEO IMPORTANT -->
-            <h1>Find Papers</h1>
+      <section class="find-paper-section">
+        <!-- SEO IMPORTANT -->
+        <h1>Find Papers</h1>
 
-            <form class="find-paper-form" aria-label="Find Question Paper Form">
-                <!-- ROW 1 -->
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="branch">Branch</label>
-                        <select id="branch" required>
+        <form class="find-paper-form" aria-label="Find Question Paper Form">
+          <!-- ROW 1 -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="branch">Branch</label>
+              <select id="branch" required>
                 <option value="">Select Branch</option>
                 <option>EXTC</option>
               </select>
-                    </div>
+            </div>
 
-                    <div class="form-group">
-                        <label for="year">Academic Year</label>
-                        <select id="year" required>
+            <div class="form-group">
+              <label for="year">Academic Year</label>
+              <select id="year" required>
                 <option value="">Select Year</option>
                 <option>First Year</option>
                 <option>Second Year</option>
                 <option>Third Year</option>
                 <option>Final Year</option>
               </select>
-                    </div>
-                </div>
+            </div>
+          </div>
 
-                <!-- ROW 2 -->
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="semester">Semester</label>
-                        <select id="semester" required>
+          <!-- ROW 2 -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="semester">Semester</label>
+              <select id="semester" required>
                 <option value="">Select Semester</option>
                 <option>Semester 1</option>
                 <option>Semester 2</option>
@@ -74,40 +83,44 @@
                 <option>Semester 7</option>
                 <option>Semester 8</option>
               </select>
-                    </div>
+            </div>
 
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input id="subject" type="text" placeholder="Enter Subject Name" required />
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                id="subject"
+                type="text"
+                placeholder="Enter Subject Name"
+                required
+              />
+            </div>
+          </div>
 
-                <!-- ROW 3 -->
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="paper-type">Paper Type</label>
-                        <select id="paper-type" required>
+          <!-- ROW 3 -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="paper-type">Paper Type</label>
+              <select id="paper-type" required>
                 <option value="">Select Exam Type</option>
                 <option>Mid Semester</option>
                 <option>End Semester</option>
                 <option>Improvement</option>
                 <option>Supplementary</option>
               </select>
-                    </div>
-                </div>
+            </div>
+          </div>
 
-                <!-- BUTTON -->
-                <div class="form-row buttons">
-                    <button type="submit">Find Paper</button>
-                </div>
-            </form>
-        </section>
+          <!-- BUTTON -->
+          <div class="form-row buttons">
+            <button type="submit">Find Paper</button>
+          </div>
+        </form>
+      </section>
     </main>
 
     <footer>
-        <p>© 2026 EngiPa | Engineering Student Portal</p>
+      <p>© 2026 EngiPa | Engineering Student Portal</p>
     </footer>
     <script src="findPaper.js"></script>
-</body>
-
+  </body>
 </html>
