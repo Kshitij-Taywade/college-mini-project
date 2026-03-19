@@ -42,12 +42,14 @@ form.addEventListener("submit", function(e) {
     }
 
     const loginData = {
-        role: userType,
+        // role: userType,
         username: username,
         password: password
     };
+    console.log(logindata)
 
     // Send data to backend
+
     fetch(API_URL, {
             method: "POST",
             headers: {

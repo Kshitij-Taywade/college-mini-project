@@ -1,73 +1,81 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EngiPa</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav id="navDiv">
-            <div class="logo">EngiPa</div>
-            <div id="nav-navigation-div">
-                <div class="theme">Theme</div>
-                <a href="">Home</a>
-                <a href="/about-us-page-files/About.html">About Us</a>
-                <a href="/contact-us-page-files/contact.html">Contact Us</a>
-            </div>
-        </nav>
+      <nav id="navDiv">
+        <div class="logo">EngiPa</div>
+        <div id="nav-navigation-div">
+          <div class="theme">Theme</div>
+          <a href="">Home</a>
+          <a href="/about-us-page-files/About.html">About Us</a>
+          <a href="/contact-us-page-files/contact.html">Contact Us</a>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div id="maindiv">
-
-            <!-- LEFT -->
-            <div class="main-left-div">
-                <div class="img-div">
-                    <img src="amazon main image 11.jpg" alt="Banner" />
-                </div>
-            </div>
-
-            <!-- RIGHT -->
-            <div class="main-right-div">
-                <div class="loginDiv">
-                    <h1>Login</h1>
-
-                    <form id="loginForm">
-
-                        <!-- IMPORTANT: value must match backend role -->
-                        <select required>
-                            <option value="" selected disabled>Select Role</option>
-                            <option value="Admin">Admin</option>
-                            <option value="Student">Student</option>
-                        </select>
-
-                        <input type="text" placeholder="Username" required />
-                        <input type="password" placeholder="Password" required />
-
-                        <button type="submit">Login</button>
-                    </form>
-
-                    <div class="login-div-register-forgot">
-                        <a href="#">Forgot Username?</a>
-                        <a href="/forgot-password-files/fogotPassword.html">Forgot Password?</a>
-                        <a href="/register-page-,files/register.html">Create new account</a>
-                    </div>
-
-                </div>
-            </div>
-
+      <div id="maindiv">
+        <!-- LEFT -->
+        <div class="main-left-div">
+          <div class="img-div">
+            <img src="amazon main image 11.jpg" alt="Banner" />
+          </div>
         </div>
+
+        <!-- RIGHT -->
+        <div class="main-right-div">
+          <div class="loginDiv">
+            <h1>Login</h1>
+
+            <form id="loginForm">
+              <!-- IMPORTANT: value must match backend role -->
+              <select required>
+                <option value="" selected disabled>Select Role</option>
+                <option value="Admin">Admin</option>
+                <option value="Student">Student</option>
+              </select>
+
+              <input
+                type="text"
+                placeholder="Username"
+                id="loginUsername"
+                required
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                id="loginPassword"
+                required
+              />
+
+              <button type="submit">Login</button>
+            </form>
+
+            <div class="login-div-register-forgot">
+              <a href="#">Forgot Username?</a>
+              <a href="/forgot-password-files/fogotPassword.html"
+                >Forgot Password?</a
+              >
+              <a href="/register-page-,files/register.html"
+                >Create new account</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div id="footerDiv">© 2026 EngiPa</div>
+      <div id="footerDiv">© 2026 EngiPa</div>
     </footer>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
